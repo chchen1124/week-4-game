@@ -1,0 +1,98 @@
+body{
+	background: url("C:/Users/Chris/Desktop/Week4_Game/week-4-game/assets/images/bground.jpg");
+}
+h1{
+	border:none;
+	width: 195px;
+	height: 35px;
+	background-color: #CC6600;
+	color:white;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+#par{
+	height:280px;
+	width:400px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-bottom: 50px;
+	color:green;
+	margin-left: 5px;
+	background: #FFF2E6;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#main-container .randnum{
+	width: 200px;
+	height:100px;
+	margin-left: 5px;
+	background: rgb(0,153,0);
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin: left;
+	float:left;
+}
+
+#main-container .countofgames{
+	width:80px;
+	height: 100px;
+	background: #00FFFF;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin: left;
+	float: left;
+}
+
+.countofgames .won{
+	width: 80px;
+	height: 50px;
+	background-color: #00FFFF;
+}
+
+.countofgames .lost{
+	width: 80px;
+	height: 50px;
+	background-color: #00FFFF;
+}
+
+.clear{
+	clear:both;
+}
+
+section{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.respimg1{
+	width:80px;
+	height: 80px;
+}
+
+.work1{
+	margin:left;
+	float: left;
+}
+#score{
+	width: 210px;
+	height: 20px;
+	margin-left: 5px;
+	background-color: #009999;
+	color:white;
+	margin-bottom: 5px;
+}
+#ScoreDisplay{
+	width: 210px;
+	height: 100px;
+	background-color: #009999;
+	color:white;
+	margin-left: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Crystal Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	</head>
+	<body>
+		<h1>CrystalsCollector!</h1>
+		<div id="par">
+			<p>You will be given a random number at the start of the game.</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+		<div id="main-container">
+			<div class="randnum">
+
+			</div>
+			<div class="countofgames">
+				<div class="won">
+				</div>
+				<div class="lost">
+				</div>	
+			</div>
+			<div class="clear"></div>	
+		</div>
+		<section>
+			<div class="work1">
+        		<img id="redcrys" class="respimg1" src="assets/images/red.jpg" alt="Red Crystal">
+        		<img id="bluecrys" class="respimg1" src="assets/images/blue.jpg" alt="Blue Crystal">
+        		<img id="yellowcrys" class="respimg1" src="assets/images/yellow.jpg" alt="Yellow Crystal">
+        		<img id="greencrys" class="respimg1" src="assets/images/green.png" alt="Green Crystal">
+      		</div>
+		</section>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="score">
+			<p>Your total score is:</p>
+		</div>
+		<div id="ScoreDisplay">
+		</div>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>	
+</html>
